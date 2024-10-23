@@ -10,4 +10,6 @@ function randomColor(){
     let bodyColor = "#" + red.toString(16) + green.toString(16) + blue.toString(16);
     console.log(bodyColor);
     document.body.style.backgroundColor = bodyColor;
+
+    document.getElementById("displayCurrentColor").innerHTML = bodyColor;
 }
